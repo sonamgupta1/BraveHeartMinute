@@ -1,0 +1,57 @@
+<ion-view view-title="Dashboard" hide-back-button="true">
+  <ion-content>
+   <div class="full-date-dash">
+
+        <span>{{today| date : "fullDate"}}</span>
+
+   </div>
+
+    <div class="row" style="margin-top: 30px; height: 140px; margin-bottom: 30px;">
+      <div class="col cls-yellowborderonlybottom" align="center">
+        <div class="cls-lblimage">
+          <span>Wake Time</span><br><span style="color: #d57470 !important;">10.00 AM</span>
+        </div>
+      </div>
+      <div class="col cls-blueborderonlybottom" align="center">
+        <div class="cls-lblimage2">
+          <span>Sleep Time</span><br><span style="color: #d57470 !important;">11.00 PM</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="list">
+
+      <a class="item item-avatar-right breathing" href="#" >
+        <img src="http://otscom.net/brave-heart/apps/css/images/breathing-technique.png">
+        <h2>Breathing Technique</h2>
+        <p>0/1 Times(1 min)</p>
+      </a>
+      <br>
+      <a class="item item-avatar-right exercise" href="#">
+
+        <img src="http://otscom.net/brave-heart/apps/css/images/gentle-exercise.png">
+        <h2>Gently Exercise</h2>
+        <p>0/0 Times(1 min)</p>
+      </a>
+      <br>
+      <a class="item item-avatar-right hydration" href="#">
+
+        <img src="http://otscom.net/brave-heart/apps/css/images/hydation.png">
+        <h2>Hydration</h2>
+        <p>0/0 Times(1 min)</p>
+      </a>
+
+    </div>
+    
+  </ion-content>
+  <ion-footer-bar class="footer header-footer-color">
+    <div class="row">
+      <i class="icon ion-eye" align="center"></i>
+      <div class="col" ng-click="dashboard()">
+        DASHBOARD
+      </div>
+      <div class="col" ng-click="activity()"><i class="icon ion-record"></i>ACTIVITY</div>
+      <div class="col" ng-click="profile()"><i class="icon ion-person"></i>PROFILE</div>
+    </div>
+  </ion-footer-bar>
+</ion-view>

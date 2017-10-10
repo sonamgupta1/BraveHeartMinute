@@ -1,0 +1,34 @@
+<ion-view hide-nav-bar="true">
+  <ion-content>
+    <div class=login-logo>
+      <img src="http://otscom.net/brave-heart/apps/css/images/logo.png" alt="image">
+    </div>
+<form name="signUpForm">
+    <div class="list">
+      <label class="item item-input" style="background: none !important; border-top: 0px;">
+        <input type="text" placeholder="First name" ng-model="user.fname">
+      </label>
+      <label class="item item-input" style="background: none !important;">
+        <input type="text" placeholder="Last name" ng-model="user.lname">
+      </label>
+      <label class="item item-input" style="background: none !important;">
+        <input type="text" placeholder="Email" ng-model="user.email">
+      </label>
+      <label class="item item-input" style="background: none !important;">
+        <input type="text" placeholder="Password" ng-model = "user.pass">
+      </label>
+    </div>
+
+      <div class="row">
+        <div class="col">
+          <button class="button button-block login-button" ng-click="signUp()" ng-disabled="signUpForm.$invalid">
+             SIGNUP
+          </button>
+        </div>
+      </div>
+</form>
+           <div align="center">
+           		<span class="clr-white">Already a member? <a class="clr-white" href="" ng-click="loginPage()">Click here</a> to Sign In</span>
+            </div>
+  </ion-content>
+</ion-view>

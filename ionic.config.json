@@ -1,0 +1,14 @@
+{
+  "name": "BhmApp",
+  "app_id": "2f4b0750",
+  "type": "ionic1",
+  "integrations": {
+    "gulp": {}
+  },
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
+}

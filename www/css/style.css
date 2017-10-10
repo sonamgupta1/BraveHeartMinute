@@ -1,0 +1,144 @@
+/* Empty. Add your own CSS if you like */
+
+.scroll-content {
+    background: url("../img/bg.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+.login-logo {
+    margin-top:30px;
+    text-align: center;
+     margin-bottom:30px;
+}
+
+.login-button
+{
+	background-color:#23d5ee !important; color:#fff !important;
+}
+.signUp-button
+{
+	background-color:#5b5999 !important; color:#fff !important;
+}
+
+.clr-white
+{color:#fff !important;}
+
+
+.item-avatar-right img{
+  float:right;
+  max-width: 40px;
+  max-height: 40px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.item-avatar-right, .item-avatar-right .item-content{
+  padding: 16px 49px 16px 16px;
+}
+
+.item-avatar-right > img:first-child, .item-avatar-right .item-image, .item-avatar-right .item-content > img:first-child, .item-avatar-right .item-content .item-image{
+  position: inital !important;
+}
+
+
+/* profile page  */
+
+.top-img img{
+  display: block;
+    margin: 0 auto;
+    border-radius: 50% !important;
+    width: 100px !important;
+    height: 100px !important;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+}
+
+.header-footer-color{
+  background-color: #5b5999 !important;
+    color: #fff !important;
+}
+
+/* WAKE UP AND SLEEP SETTING  */
+
+
+/*dashboard*/
+
+.nav-bar-block, .bar {
+    background-color:  #5b5999 !important;
+    color: #fff !important;
+}
+
+.bar.bar-stable .title {
+    /*color: #444;*/
+    color: #fff !important;
+}
+
+.bar-stable .button.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #fff !important;
+    font-size: 17px;
+}
+
+.full-date-dash {
+    background: #fff !important;
+    border: none !important;
+    border-left: 5px solid #7696bd !important;
+    padding: 10px !important;
+    margin-top: 20px;
+
+}
+
+.cls-yellowborderonlybottom {
+    border-right: 0 !important;
+    border-bottom: 5px solid #d9a462 !important;
+    border-left: none !important;
+    border-top: none !important;
+    background: url(http://otscom.net/brave-heart/apps/css/images/wakeup.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    padding: 50px 15px 15px !important;
+}
+
+.cls-blueborderonlybottom {
+    border-left: 0 !important;
+    border-bottom: 5px solid #7696bd !important;
+    background-color: #fff !important;
+    border-right: none !important;
+    border-top: none !important;
+    background: url(http://otscom.net/brave-heart/apps/css/images/go-to-bed.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    padding: 54px 15px 15px !important;
+}
+
+.cls-lblimage {
+    background: #fff;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+.cls-lblimage2 {
+    background: #fff;
+    opacity: 0.8;
+    padding: 8px;
+}
+
+.breathing {
+    border: none !important;
+    border-left: 10px solid #00a899 !important;
+}
+.exercise {
+    border: none !important;
+    border-left: 10px solid #f89623 !important;
+}
+.hydration {
+    border: none !important;
+    border-left: 10px solid #4c8eca !important;
+}

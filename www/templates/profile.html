@@ -1,0 +1,53 @@
+<ion-view view-title="Profile" class="header-footer-color">
+  <ion-content>
+    <div class="top-img">
+      <img src="http://otscom.net/brave-heart/apps/css/images/user.jpg" alt="image">
+    </div>
+    <div align="right"ng-click="editProfile()">
+      <i class="icon ion-edit" style="padding-right:30px;"></i>
+    </div>
+    <div align="center"><span class="clr-white"
+       id="lbl-username">Anoop Krishan</span>
+       <br>
+       <span class="clr-white" id="lbl-address">Richmond Hill, Ontario, Canada, M1DF4B</span></div>
+  <div class="row list list-inset" style="padding:0px !important;text-align:center;">
+    <div class="col item">
+      Height
+      <p style="margin-top:5px;">0.00 cm</p>
+    </div>
+    <div class="col item">
+      Weight
+            <p style="margin-top:5px;">0.00 kg</p>
+
+    </div>
+  </div>
+  <div class="list">
+
+    <a class="item item-avatar-right" href="#">
+<img src="http://otscom.net/brave-heart/apps/css/images/birthday.png">    
+  <h2>Birthday</h2>
+      <p>4 June</p>
+    </a>
+<br>
+     <a class="item item-avatar-right" href="#">
+       
+    <img src="http://otscom.net/brave-heart/apps/css/images/address.png">
+      <h2>Address</h2>
+      <p>Bhouse no-206, new delhi.</p>
+    </a>
+
+
+</div>
+  </ion-content>
+
+    <ion-footer-bar class="footer header-footer-color">
+        <div class="row">
+            <i class="icon ion-eye" align="center"></i>
+            <div class="col" ng-click="dashboard()">
+                DASHBOARD
+            </div>
+            <div class="col" ng-click="activity()"><i class="icon ion-record"></i>ACTIVITY</div>
+            <div class="col" ng-click="profile()"><i class="icon ion-person"></i>PROFILE</div>
+        </div>
+    </ion-footer-bar>
+</ion-view>

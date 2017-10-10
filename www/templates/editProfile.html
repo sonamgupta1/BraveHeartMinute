@@ -1,0 +1,73 @@
+<ion-view view-title="Update Profile" class="header-footer-color">
+  <ion-content>
+    <div class="top-img">
+      <img src="http://otscom.net/brave-heart/apps/css/images/user.jpg" alt="image">
+    </div>
+    <div class="list">
+      <label class="item item-input" style="background: none !important; border-top: 0px;">
+        <input type="text" placeholder="First name">
+      </label>
+      <label class="item item-input" style="background: none !important;">
+        <input type="text" placeholder="Last name">
+      </label>
+      <label class="item item-input" style="background: none !important;">
+        <input type="text" placeholder="Birthday">
+      </label>
+      <label class="item item-input" style="background: none !important;">
+        <input type="text" placeholder="Address">
+      </label>
+     <label class="item item-input" style="background: none !important; border-top: 0px;">
+        <input type="text" placeholder="City">
+      </label>
+      <label class="item item-input" style="background: none !important;">
+        <input type="text" placeholder="Province">
+      </label>
+      <label class="item item-input" style="background: none !important;">
+        <input type="text" placeholder="Country">
+      </label>
+      <label class="item item-input" style="background: none !important;">
+        <input type="text" placeholder="Postcode">
+      </label>
+      <label class="item item-input" style="background: none !important;">
+        <input type="text" placeholder="Mobile">
+      </label>
+      <label class="item item-input" style="background: none !important;">
+        <input type="text" placeholder="Height">
+      </label>
+      <label class="item item-input" style="background: none !important;">
+        <input type="text" placeholder="Weight">
+      </label>
+    </div>
+    <div class="row">
+        <div class="col">
+            <ion-checkbox ng-model="male">Male</ion-checkbox>
+        </div>
+        <div class="col">
+            <ion-checkbox ng-model="female">Female</ion-checkbox>
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <button class="button button-block login-button" ng-click="login()">
+           SAVE
+        </button>
+      </div>
+      <div class="col">
+        <button class="button button-block signUp-button" ng-click="signUp()">
+           GO TO PROFILE
+        </button>
+      </div>
+    </div>
+  </ion-content>
+    <ion-footer-bar class="footer header-footer-color">
+        <div class="row">
+            <i class="icon ion-eye" align="center"></i>
+            <div class="col" ng-click="dashboard()">
+                DASHBOARD
+            </div>
+            <div class="col" ng-click="activity()"><i class="icon ion-record"></i>ACTIVITY</div>
+            <div class="col" ng-click="profile()"><i class="icon ion-person"></i>PROFILE</div>
+        </div>
+    </ion-footer-bar>
+</ion-view>
